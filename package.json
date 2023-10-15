@@ -22,7 +22,7 @@
     "simpleheat": "^0.4.0"
   },
   "devDependencies": {
-    "react-scripts": "1.0.10"
+    "react-scripts": "^1.0.10"
   },
   "scripts": {
     "start": "react-scripts start",

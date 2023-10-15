@@ -39,7 +39,7 @@
   <script language="JavaScript">
   function displayLineChart() {
     var data = {
-        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul','Aug'],
+        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul','Aug', 'Sep'],
         datasets: [
             {
                 label: "Traffic Density",
@@ -49,7 +49,7 @@
                 pointStrokeColor: "#fff",
                 pointHighlightFill: "#fff",
                 pointHighlightStroke: "rgba(220,220,220,1)",
-                data: [56, 60, 75, 77, 64, 45, 68, 70]
+                data: [56, 60, 75, 77, 64, 45, 68, 70, 80]
             },
         ]
     };
@@ -64,7 +64,7 @@
 
     var data = {
       1:{
-        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul','Aug'],
+        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul','Aug', 'Sep'],
         datasets: [
             {
                 label: "Traffic Density",
@@ -74,12 +74,12 @@
                 pointStrokeColor: "#fff",
                 pointHighlightFill: "#fff",
                 pointHighlightStroke: "rgba(220,220,220,1)",
-                data: [56, 60, 75, 77, 64, 45, 68, 70]
+                data: [56, 60, 75, 77, 64, 45, 68, 70, 80]
             },
         ]
     },
       2:{
-        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul','Aug'],
+        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul','Aug', 'Sep'],
         datasets: [
             {
                 label: "Traffic Density",
@@ -89,12 +89,12 @@
                 pointStrokeColor: "#fff",
                 pointHighlightFill: "#fff",
                 pointHighlightStroke: "rgba(220,220,220,1)",
-                data: [36, 20, 75, 77, 64, 45, 18, 70]
+                data: [36, 20, 75, 77, 64, 45, 18, 70, 80]
             },
         ]
         },
         3:{
-        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul','Aug'],
+        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul','Aug', 'Sep'],
         datasets: [
             {
                 label: "Traffic Density",
@@ -104,12 +104,12 @@
                 pointStrokeColor: "#fff",
                 pointHighlightFill: "#fff",
                 pointHighlightStroke: "rgba(220,220,220,1)",
-                data: [90, 60, 75, 17, 64, 45, 48, 50]
+                data: [90, 60, 75, 17, 64, 45, 48, 50, 75]
             },
         ]
     },
       4:{
-        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul','Aug'],
+        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul','Aug', 'Sep'],
         datasets: [
             {
                 label: "Traffic Density",
@@ -119,12 +119,12 @@
                 pointStrokeColor: "#fff",
                 pointHighlightFill: "#fff",
                 pointHighlightStroke: "rgba(220,220,220,1)",
-                data: [36, 20, 45, 77, 64, 75, 18, 20]
+                data: [36, 20, 45, 77, 64, 75, 18, 20, 55]
             },
         ]
         },
       5: {
-        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul','Aug'],
+        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul','Aug', 'Sep'],
         datasets: [
             {
                 label: "Traffic Density",
@@ -134,7 +134,7 @@
                 pointStrokeColor: "#fff",
                 pointHighlightFill: "#fff",
                 pointHighlightStroke: "rgba(220,220,220,1)",
-                data: [56, 10, 45, 17, 64, 25, 88, 10]
+                data: [56, 10, 45, 17, 64, 25, 88, 10, 40]
             },
         ]
     }
@@ -150,11 +150,11 @@
   <div class="box">
     <h1> Traffic Density </h1>
     <select id="selectBox" onchange="trafficSelection()">
-      <option value="1">Jhansi Railways</option>
-      <option value="2">Kanpur Jhansi Highway NH27</option>
-      <option value="3">Elite choraha</option>
-      <option value="4">Biet Main Road</option>
-      <option value="5">Jawalior road</option>
+      <option value="1">Bandra Railway Station</option>
+      <option value="2">Bandra West Junction</option>
+      <option value="3">Padmashree Mohammed Rafi Chowk</option>
+      <option value="4">Bandstand</option>
+      <option value="5">Carter Road</option>
     </select>
     <canvas id="lineChart"></canvas>
   </div>
