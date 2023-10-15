@@ -142,15 +142,31 @@ export default class LiveTraffic extends Component {
       >
       <div> {this.state.countdown} </div>
       
-        <Trafficlight color={this.state.l1} count={this.state.c1} lat={25.467663} lng={78.623961} />
-        <Trafficlight color={this.state.l2} count={this.state.c2} lat={25.465492} lng={78.624648} />
-        <Trafficlight color={this.state.l3} count={this.state.c3} lat={25.467206} lng={78.628564} />
-        <Trafficlight color={this.state.l4} count={this.state.c4} lat={30.717748} lng={76.811804} />
-        <Trafficlight color={this.state.l1} count={this.state.c1} lat={25.448460} lng={78.570687} />
-        <Trafficlight color={this.state.l2} count={this.state.c2} lat={25.447825} lng={78.570580} />
-        <Trafficlight color={this.state.l3} count={this.state.c3} lat={25.448828} lng={78.568402} />
-        <Trafficlight color={this.state.l4} count={this.state.c4} lat={25.447622} lng={78.569679} />
-        <Trafficlight color={this.state.l2} count={this.state.c2+3} lat={25.449690} lng={78.569910} />
+        {/* Bandra Junction Traffic Lights*/} 
+        <Trafficlight color={this.state.l1} count={this.state.c1} lat={19.059465162956947} lng={72.83682229058506} />
+        <Trafficlight color={this.state.l2} count={this.state.c2} lat={19.059715} lng={72.836869} />
+        <Trafficlight color={this.state.l3} count={this.state.c3} lat={19.059592} lng={72.836801} />
+        <Trafficlight color={this.state.l4} count={this.state.c4} lat={19.059473} lng={72.836993} />
+        <Trafficlight color={this.state.l1} count={this.state.c1} lat={19.059644} lng={72.837002} />
+        {/*Raymond Corner*/}
+        <Trafficlight color={this.state.l2} count={this.state.c2} lat={19.059316} lng={72.834170} />
+        <Trafficlight color={this.state.l3} count={this.state.c3} lat={19.059451} lng={72.834154} />
+        <Trafficlight color={this.state.l4} count={this.state.c4} lat={19.059294} lng={72.834149} />
+        <Trafficlight color={this.state.l2} count={this.state.c2+3} lat={19.059417} lng={ 72.834112}/>
+        {/*Mangal Mahal Corner*/}
+        <Trafficlight color={this.state.l2} count={this.state.c2} lat={19.059544} lng={72.829552} />
+        <Trafficlight color={this.state.l3} count={this.state.c3} lat={19.059562} lng={72.829500} />
+        <Trafficlight color={this.state.l4} count={this.state.c4} lat={19.059573} lng={72.829538} />
+        <Trafficlight color={this.state.l2} count={this.state.c2+3} lat={19.059528} lng={72.829519}/>
+        {/*National College*/}
+        <Trafficlight color={this.state.l2} count={this.state.c2} lat={19.063683} lng={72.835052} />
+        <Trafficlight color={this.state.l3} count={this.state.c3} lat={19.063779} lng={72.835125} />
+        <Trafficlight color={this.state.l4} count={this.state.c4} lat={19.063693} lng={72.834977} />
+        {/*Bandra Station*/}
+        <Trafficlight color={this.state.l2} count={this.state.c2} lat={19.054016} lng={72.837792} />
+        <Trafficlight color={this.state.l3} count={this.state.c3} lat={19.054182} lng={72.837862} />
+        <Trafficlight color={this.state.l4} count={this.state.c4} lat={19.054169} lng={72.837726} />
+        <Trafficlight color={this.state.l1} count={this.state.c1} lat={19.054038} lng={72.837930} />
       </GoogleMapReact>
     );
   }
